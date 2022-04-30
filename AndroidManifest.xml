@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugasaplikasi.kaloriku.penghitungkalori">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_dietapp"
+        android:label="Tugas 2 Mobile"
+        android:roundIcon="@mipmap/ic_dietapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.tugasaplikasi.kaloriku.penghitungkalori.MainActivity"
+            android:label="Tugas 2 Mobile"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tugasaplikasi.kaloriku.penghitungkalori.KonsulAwalActivity" />
+        <activity android:name="com.tugasaplikasi.kaloriku.penghitungkalori.LoginActivity" />
+        <activity android:name="com.tugasaplikasi.kaloriku.penghitungkalori.Coba" />
+        <activity android:name="com.tugasaplikasi.kaloriku.penghitungkalori.DetilAktifitas" />
+        <activity
+            android:name="com.tugasaplikasi.kaloriku.penghitungkalori.UI.DetailMakanan"
+            android:label="Detail Makanan" />
+        <activity android:name="com.tugasaplikasi.kaloriku.penghitungkalori.InfoDev.InfoDevActivity" />
+        <activity
+            android:name="com.tugasaplikasi.kaloriku.penghitungkalori.RadioButton.RadioButtonActivity"
+            android:label="@string/title_olahraga_activity"
+            android:parentActivityName="com.tugasaplikasi.kaloriku.penghitungkalori.MainActivity" />
+        <activity
+            android:name="com.tugasaplikasi.kaloriku.penghitungkalori.SettingFragment"
+            android:label="Diagnosa"
+            android:parentActivityName="com.tugasaplikasi.kaloriku.penghitungkalori.MainActivity" />
+        <activity android:name="com.tugasaplikasi.kaloriku.penghitungkalori.Awal.KonsulActivity" />
+        <activity
+            android:name="com.tugasaplikasi.kaloriku.penghitungkalori.UI.TentangAplikasi"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName="com.tugasaplikasi.kaloriku.penghitungkalori.MainActivity" />
+    </application>
+
+</manifest>
